@@ -1,0 +1,9 @@
+/* Updated brand colors */
+:root {
+  --brand-primary: #264653;
+  --brand-accent: #E76F51;
+}
+.bg-brand-primary { background-color: var(--brand-primary); }
+.text-brand-primary { color: var(--brand-primary); }
+.bg-brand-accent { background-color: var(--brand-accent); }
+.text-brand-accent { color: var(--brand-accent); }

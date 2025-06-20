@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adoption Application | Paws Haven</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans antialiased">
+  <div class="min-h-screen flex flex-col items-center justify-center py-12 px-4">
+    <div class="max-w-xl w-full bg-white rounded-lg shadow-lg p-8">
+      <h1 class="text-3xl font-bold text-brand-primary mb-6 text-center">Adoption Application</h1>
+      <form class="space-y-5" action="#" method="POST">
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Full Name</label>
+          <input type="text" name="name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" placeholder="Your full name">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" name="email" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" placeholder="you@example.com">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Phone Number</label>
+          <input type="tel" name="phone" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" placeholder="+65 9123 4567">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Address</label>
+          <input type="text" name="address" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" placeholder="Your address">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Why do you want to adopt?</label>
+          <textarea name="reason" required rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" placeholder="Share your motivation and experience with pets."></textarea>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Type of Home</label>
+          <select name="home_type" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
+            <option value="">Select...</option>
+            <option value="HDB">HDB</option>
+            <option value="Condo">Condo</option>
+            <option value="Landed">Landed</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Do you have other pets?</label>
+          <select name="other_pets" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
+            <option value="">Select...</option>
+            <option value="No">No</option>
+            <option value="Yes">Yes</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Preferred Dog (if any)</label>
+          <input type="text" name="preferred_dog" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm" placeholder="Dog's name or leave blank">
+        </div>
+        <button type="submit" class="w-full bg-brand-accent text-white font-bold py-3 px-6 rounded-lg hover:bg-brand-primary transition-colors">Submit Application</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
