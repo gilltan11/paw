@@ -1,9 +1,18 @@
-/* Updated brand colors */
+/* Enhanced brand colors for a more attractive palette */
 :root {
-  --brand-primary: #264653;
-  --brand-accent: #E76F51;
+  --brand-primary: #264653; /* Deep blue-green */
+  --brand-accent: #E76F51;  /* Vibrant coral */
+  --brand-secondary: #2A9D8F; /* Teal */
+  --brand-highlight: #F4A261; /* Warm orange */
+  --brand-light: #FAF9F6; /* Soft off-white */
 }
 .bg-brand-primary { background-color: var(--brand-primary); }
 .text-brand-primary { color: var(--brand-primary); }
 .bg-brand-accent { background-color: var(--brand-accent); }
 .text-brand-accent { color: var(--brand-accent); }
+.bg-brand-secondary { background-color: var(--brand-secondary); }
+.text-brand-secondary { color: var(--brand-secondary); }
+.bg-brand-highlight { background-color: var(--brand-highlight); }
+.text-brand-highlight { color: var(--brand-highlight); }
+.bg-brand-light { background-color: var(--brand-light); }
+.text-brand-light { color: var(--brand-light); }
